@@ -238,3 +238,75 @@ body {
   left: 55%;
   top: 17%;
 }
+
+.trend {
+  padding-bottom: 130px;
+}
+
+.trend-title {
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 1.875;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+}
+
+.trend-button {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.875;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
+.trend-title-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.game-photo {
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+.trend-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 47px;
+}
+
+.trend-item {
+  flex-basis: calc((100% - 47px * 3) / 4);
+}
+
+.game-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+
+.fire {
+  fill: #ffffff;
+}
+
+.game-text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.875;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+}

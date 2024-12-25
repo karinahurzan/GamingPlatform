@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaming Platfort</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <meta name="description" content="Site with different gaming features" />
+  </head>
+  <body>
+    <header class="head">
+      <div class="header">
+        <nav class="header-nav">
+          <a class="header-logo" href="#" target="_blank">logo</a>
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-item-src current" href="#" target="_blank"
+                >Home</a
+              >
+            </li>
+            <li class="header-item">
+              <a class="header-item-src" href="#" target="_blank">About us</a>
+            </li>
+            <li class="header-item">
+              <a class="header-item-src" href="#" target="_blank">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-item-src" href="#" target="_blank">News</a>
+            </li>
+          </ul>
+          <button class="header-button" type="button">Contact us</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-block container">
+          <div class="hero-info">
+            <p class="hero-3d">3D game Dev</p>
+            <h1 class="hero-title">Work that we produce for our clients</h1>
+            <p class="hero-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard.
+            </p>
+            <button class="hero-button" type="button">Get more details</button>
+          </div>
+          <div class="hero-graffic">
+            <picture class="hero-img"
+              ><source
+                srcset="
+                  ./img/joystick/image1.webp    1x,
+                  ./img/joystick/image1@2x.webp 2x
+                " />
+              <img src="./img/joystick/image1.webp" alt="joystick"
+            /></picture>
+            <ul class="hero-graffic-list">
+              <li>
+                <a class="unity-src" href="https://unity.com/" target="_blank">
+                  <svg class="unity" width="30" height="30">
+                    <use href="./img/icons.svg#icon-unity"></use>
+                  </svg>
+                  unity
+                </a>
+              </li>
+              <li>
+                <a class="cryengine-src" href="https://www.cryengine.com/" target="_blank">
+                  <svg class="cryengine" width="100" height="100">
+                    <use href="./img/icons.svg#icon-cryengine"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="unreal-engine-src" href="https://www.unrealengine.com/en-US" target="_blank">
+                  <svg class="unreal-engine" width="150" height="150">
+                    <use href="./img/icons.svg#icon-unreal-engine"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

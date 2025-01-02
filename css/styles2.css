@@ -307,6 +307,45 @@ body {
   margin-top: 16px;
 }
 
+.game {
+  background-color: #1c140f;
+}
+
+.game-block {
+  padding-top: 113px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.game-info {
+  max-width: 629px;
+  padding-right: 93px;
+}
+
+.game-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2.025;
+  margin-top: 21px;
+}
+
+.game-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.575;
+  margin-top: 14px;
+  max-width: 531px;
+}
+
+.game-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.025;
+  margin-top: 14px;
+}
+
 .foot {
   background-color: #070707;
 }

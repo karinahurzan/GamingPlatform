@@ -110,6 +110,7 @@ body {
   background-color: #fa9021;
   padding: 10px 28px;
   border: none;
+  display: block;
 }
 
 .header-nav {
@@ -360,7 +361,7 @@ body {
 
 .process {
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(../img/process/bg-image1.jpg);
+    url(../img/home/process/bg-image1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -370,7 +371,7 @@ body {
 @media screen and (min-resolution: 192dpi) {
   .process {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(../img/process/bg-image1@2x.jpg);
+      url(../img/home/process/bg-image1@2x.jpg);
   }
 }
 

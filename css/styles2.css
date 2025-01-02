@@ -346,6 +346,136 @@ body {
   margin-top: 14px;
 }
 
+.our-team {
+  padding-top: 148px;
+  padding-bottom: 157px;
+}
+
+.our-team-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.805;
+  margin-bottom: 53px;
+}
+
+.our-team-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 28px;
+  align-items: center;
+}
+
+.our-team-item {
+  flex-basis: calc((100% - 84px) / 4);
+
+  padding: 35px 86px 30px 86px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 20px;
+  background-color: #1c140f;
+}
+
+.our-team-avatar {
+  width: 123px;
+  height: 123px;
+}
+
+.our-team-subtitle {
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 2.025;
+}
+
+.our-team-text {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2.025;
+  color: #e8e8e8;
+}
+
+.stay {
+  padding-bottom: 153px;
+}
+
+.stay-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.875;
+  margin-bottom: 32px;
+}
+
+.stay-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  margin-bottom: 74px;
+  max-width: 545px;
+}
+
+.stay-block {
+  width: 100%;
+  border-radius: 15px;
+  background-color: #1c140f;
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stay-info {
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stay-subtitle {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.stay-subtext {
+  font-weight: 400;
+  font-size: 17px;
+  color: #fff;
+}
+
+.stay-subscribe {
+  position: relative;
+}
+
+.stay-input {
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 14px 30px;
+  min-width: 385px;
+  outline: transparent;
+  border: none;
+}
+
+.stay-button {
+  border-radius: 8px;
+  background: #dc7000;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 18px;
+  border: none;
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .foot {
   background-color: #070707;
 }

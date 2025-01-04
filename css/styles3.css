@@ -68,7 +68,7 @@ body {
 
 .container {
   max-width: 1440px;
-  padding: 0 110px;
+  padding: 0 160px 0 110px;
   margin: 0 auto;
 }
 
@@ -198,36 +198,162 @@ body {
 }
 
 .hero-item {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 37px;
-    align-items: center;
-    padding-top: 31px;
-    padding-bottom: 31px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 37px;
+  align-items: center;
+  padding-top: 31px;
+  padding-bottom: 31px;
 }
 
 .hero-item:not(:last-child) {
-    border-right: 2px solid #EEEFF2;
-    height: 100%;
-    padding-right: 104px;
+  border-right: 2px solid #eeeff2;
+  height: 100%;
+  padding-right: 104px;
 }
 
 .hero-icon-block {
-    width: 65px;
-    height: 65px;
-    background-color: #FFECEC;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100%;
+  width: 65px;
+  height: 65px;
+  background-color: #ffecec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
 }
 
 .hero-icon {
-    fill: #DC7000;
+  fill: #dc7000;
 }
 
+.video {
+  padding-right: 150px;
+  padding-bottom: 180px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
 
+.video-picture {
+  box-shadow: 0 2px 4px 0 rgba(47, 48, 53, 0.15);
+  background-image: linear-gradient(
+      rgba(47, 48, 53, 0.5),
+      rgba(47, 48, 53, 0.5)
+    ),
+    url(../img/services/home-page/spiderman.jpg);
+  min-width: 669px;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-resolution: 192dpi) {
+  .video-picture {
+    background-image: linear-gradient(
+        rgba(47, 48, 53, 0.5),
+        rgba(47, 48, 53, 0.5)
+      ),
+      url(../img/services/home-page/spiderman@2x.jpg);
+  }
+}
+
+.video-icon {
+  stroke: #ffffff;
+  fill: none;
+}
+
+.video-info {
+  max-width: 430px;
+}
+
+.video-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.805;
+  margin-bottom: 16px;
+}
+
+.video-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.875;
+  margin-bottom: 28px;
+}
+
+.video-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.875;
+}
+
+.video-item {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.video-item:not(:last-child) {
+  margin-bottom: 19px;
+}
+
+.check-icon {
+  fill: #2fab73;
+}
+
+.games {
+  padding-bottom: 160px;
+}
+
+.games-list {
+  display: flex;
+  flex-direction: column;
+  gap: 180px;
+}
+
+.games-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.games-item-info {
+  max-width: 536px;
+}
+
+.games-item-title {
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 43px;
+}
+
+.games-item-text {
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 46px;
+}
+
+.games-item-button {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+
+  padding: 13px 45px;
+
+  border: none;
+  background: #dc7000;
+}
 
 .stay {
   padding-bottom: 153px;

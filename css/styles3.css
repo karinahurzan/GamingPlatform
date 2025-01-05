@@ -355,8 +355,181 @@ body {
   background: #dc7000;
 }
 
+.reviews {
+  padding-top: 88px;
+  padding-bottom: 60px;
+  background-color: #1c140f;
+}
+
+.reviews-title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.42857;
+  text-align: center;
+
+  max-width: 448px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.reviews-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.875;
+  text-align: center;
+
+  max-width: 555px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 68px;
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 50px;
+  overflow-x: scroll;
+  margin-bottom: 60px;
+}
+
+.reviews-list::-webkit-scrollbar {
+  display: none;
+}
+
+.reviews-item {
+  min-width: 400px;
+  min-height: 230px;
+  padding: 30px;
+
+  background-color: transparent;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  transition: background-color 300ms ease-in-out, border 300ms ease-in-out;
+}
+
+.reviews-item:focus,
+.reviews-item:hover {
+  background-color: #0f0901;
+  border: 2px solid #dc7000;
+}
+
+.reviews-photo {
+  border-radius: 100%;
+}
+
+.reviews-item-top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.reviews-item-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: auto;
+  gap: 5px;
+}
+
+.reviews-item-title {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.reviews-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #4f5665;
+}
+
+.reviews-assessment {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.reviews-assessment-point {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.assessment-icon {
+  fill: #fea250;
+}
+
+.reviews-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.875;
+}
+
+.reviews-coordination {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rc-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 15px;
+  align-items: center;
+}
+
+.rc-item {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: #dde0e4;
+  transition: background-color 300ms ease-in-out, width 300ms ease-in-out;
+}
+
+.rc-item:hover,
+.rc-item:focus {
+  background-color: #dc7000;
+  width: 45px;
+}
+
+.reviews-arrows {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.reviews-arrow-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: transparent;
+  border: 2px solid #dc7000;
+  fill: #dc7000;
+  transition: background-color 300ms ease-in-out, fill 300ms ease-in-out;
+}
+
+.reviews-arrow-button:hover,
+.reviews-arrow-button:focus,
+.reviews-arrow-button:active {
+  background-color: #dc7000;
+  fill: #ffffff;
+}
+
 .stay {
-  padding-bottom: 153px;
+  padding-top: 127px;
+  padding-bottom: 144px;
 }
 
 .stay-title {
